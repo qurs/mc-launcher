@@ -1,0 +1,148 @@
+[general]
+	clientID = 762726289341677668
+	enabled = true
+	debugging = false
+	configScreen = true
+	launcherIntegration = false
+	version = 12
+
+[init]
+	enabled = true
+	description = "QMC Launcher"
+	state = "Загрузка игры..."
+	largeImageKey = "mclogonew"
+	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
+	smallImageKey = "grass"
+	smallImageText = "%mods% модов установлено"
+
+	[[init.buttons]]
+		label = "135.181.25.122:25565"
+		url = "https://pastebin.com/adXAd8WX"
+
+	[[init.buttons]]
+		label = "Карта мира"
+		url = "http://135.181.25.122:8123/"
+
+
+[main_menu]
+	enabled = true
+	description = "QMC Launcher"
+	state = "Отдыхает в главном меню"
+	largeImageKey = "mclogonew"
+	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
+	smallImageKey = "bricks"
+	smallImageText = "%mods% модов установлено"
+
+	[[main_menu.buttons]]
+		label = "135.181.25.122:25565"
+		url = "https://pastebin.com/adXAd8WX"
+
+	[[main_menu.buttons]]
+		label = "Карта мира"
+		url = "http://135.181.25.122:8123/"
+
+
+[server_list]
+	enabled = false
+	description = "%player% is looking for a server"
+	state = "Searching for friends"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[join_game]
+	enabled = true
+	description = "QMC Launcher"
+	state = "Присоединение к серверу"
+	largeImageKey = "mclogonew"
+	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
+	smallImageKey = "dirt"
+	smallImageText = "%mods% модов установлено"
+
+	[[join_game.buttons]]
+		label = "135.181.25.122:25565"
+		url = "https://pastebin.com/adXAd8WX"
+
+	[[join_game.buttons]]
+		label = "Карта мира"
+		url = "http://135.181.25.122:8123/"
+
+
+[single_player]
+	enabled = false
+	description = "Currently In %world%"
+	state = "Playing lonely mode"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[multi_player]
+	enabled = true
+	description = "QMC Launcher"
+	state = "Играет на сервере - %players% игроков"
+	largeImageKey = "mclogonew"
+	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
+	smallImageKey = "diamond"
+	smallImageText = "%mods% модов установлено"
+
+	[[multi_player.buttons]]
+		label = "135.181.25.122:25565"
+		url = "https://pastebin.com/adXAd8WX"
+
+	[[multi_player.buttons]]
+		label = "Карта мира"
+		url = "http://135.181.25.122:8123/"
+
+
+[generic]
+	description = "QMC Launcher"
+	state = "QMC Launcher"
+	largeImageKey = "mclogonew"
+	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
+	smallImageKey = "grass"
+	smallImageText = "%mods% модов установлено"
+
+	[[generic.buttons]]
+		label = "135.181.25.122:25565"
+		url = "https://pastebin.com/adXAd8WX"
+
+	[[generic.buttons]]
+		label = "Карта мира"
+		url = "http://135.181.25.122:8123/"
+
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+
