@@ -4,4 +4,4 @@ git fetch
 git checkout main
 git pull
 
-luajit lua/main.luaс
+luajit lua/main.luac
