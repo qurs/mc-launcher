@@ -83,7 +83,7 @@
 [multi_player]
 	enabled = true
 	description = "QMC Launcher"
-	state = "Играет на сервере - %players% игроков"
+	state = "Играет на сервере"
 	largeImageKey = "mclogonew"
 	largeImageText = "Майнкрафт %mcver%, запущенный через QMC Launcher"
 	smallImageKey = "diamond"
